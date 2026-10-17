@@ -7,6 +7,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.Before;
 import project.base.DriverFactory;
 import project.expected.InventoryExpected;
 import project.expected.LoginExpected;
@@ -19,6 +20,7 @@ public class LoginSteps {
 	public LoginPage loginPage;
 	public InventoryPage inventoryPage;
 
+	@Before(order = 1)
 	public LoginSteps() {
 		this.driver = DriverFactory.getDriver();
 		this.loginPage = new LoginPage(driver);

@@ -8,7 +8,7 @@ import io.cucumber.java.Before;
 public abstract class TestHooks {
 
 
-	@Before
+	@Before(order=0)
 	public void setUp() {
 		DriverFactory.initDriver();
 	}
