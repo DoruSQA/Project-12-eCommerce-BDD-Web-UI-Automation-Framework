@@ -25,10 +25,7 @@
 ## 📖 Overview 
 
 This project is a **BDD-based Web UI Test Automation Framework** developed using Java, Selenium WebDriver, Cucumber, JUnit 5, and Maven.
-
-The framework follows the **Behavior-Driven Development (BDD)** approach, using **Gherkin syntax** to define test scenarios in a readable and structured format. These scenarios are connected to reusable Java Step Definitions that perform browser interactions and validate application behavior.
-
-The framework automates the following **functional modules:**
+The framework follows the **Behavior-Driven Development (BDD)** approach, using **Gherkin syntax** to define test scenarios in a readable and structured format.
 
 - Authentication
 - Product Catalog
@@ -38,10 +35,7 @@ The framework automates the following **functional modules:**
 
 Both **positive and negative testing scenarios** are covered, including functional validations, input constraints, boundary conditions, and complete user journeys.
 
-The implementation combines **BDD principles** with the **Page Object Model (POM)** design pattern to promote code reusability, maintainability, and separation of concerns.
-
 **Application Under Test:** [SauceDemo](https://www.saucedemo.com/)
-
 
 ---
 
