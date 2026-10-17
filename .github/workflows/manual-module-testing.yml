@@ -1,0 +1,58 @@
+name: Module Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      testSuite:
+        description: 'Select the test module to execute'
+        required: true
+        type: choice
+        options:
+          - Authentication
+          - ShoppingCart
+          - Checkout
+          - ProductCatalog
+          - Purchase
+
+      browser:
+        description: 'Select the browser'
+        required: true
+        default: chrome
+        type: choice
+        options:
+          - chrome
+          - firefox
+          - edge
+
+jobs:
+  module-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Run Cucumber Tests
+        env:
+          TEST_SUITE: ${{ inputs.testSuite }}
+          BROWSER: ${{ inputs.browser }}
+        run: |
+          mvn clean test \
+            -Dbrowser="$BROWSER" \
+            -Dheadless=true \
+            -Dcucumber.filter.tags="@$TEST_SUITE"
+
+      - name: Upload Cucumber Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-report-${{ inputs.testSuite }}-${{ inputs.browser }}
+          path: reports/
+          if-no-files-found: warn
