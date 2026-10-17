@@ -162,7 +162,7 @@ Console output is separate from the generated HTML reports.
 
 ## Conclusion
 
-The main focus of this project was to demonstrate the practical understanding of UI Test Automation and **Behavior-Driven Development (BDD)** concepts 
+The main focus of this project was to demonstrate a practical understanding of UI Test Automation and **Behavior-Driven Development (BDD)** concepts 
 through **Gherkin scenarios** within a structured and configurable framework.
 
 **Author:** [DoruSQA](https://github.com/DoruSQA) | [LinkedIn](https://www.linkedin.com/in/sava-doru/)
