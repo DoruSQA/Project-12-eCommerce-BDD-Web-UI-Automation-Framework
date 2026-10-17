@@ -21,7 +21,7 @@ public class LoginSteps {
 	public InventoryPage inventoryPage;
 
 	@Before(order = 1)
-	public LoginSteps() {
+	public initializePages() {
 		this.driver = DriverFactory.getDriver();
 		this.loginPage = new LoginPage(driver);
 		this.inventoryPage = new InventoryPage(driver);
