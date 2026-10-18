@@ -7,6 +7,7 @@
 ![JUnit 5](https://img.shields.io/badge/JUnit-5-25A162?logo=junit5&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-Build-blue?logo=apachemaven)
 ![BDD](https://img.shields.io/badge/Testing-BDD-purple)
+![CI](https://github.com/DoruSQA/Project-12-eCommerce-BDD-Web-UI-Automation-Framework.git/actions/workflows/manual-module-testing.yml/badge.svg)
 
 > **Note 1:** This project is part of my personal QA Automation portfolio.
 
