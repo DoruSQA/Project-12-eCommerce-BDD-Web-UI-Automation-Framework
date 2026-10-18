@@ -10,7 +10,7 @@
 [![CI](https://github.com/DoruSQA/Project-12-eCommerce-BDD-Web-UI-Automation-Framework/actions/workflows/manual-module-testing.yml/badge.svg)](https://github.com/DoruSQA/Project-12-eCommerce-BDD-Web-UI-Automation-Framework/actions/workflows/manual-module-testing.yml)
 
 
-> **Note 1:** This project is part of my personal QA Automation portfolio.
+> **Note:** This project is part of my personal QA Automation portfolio.
 
 ## Table of Contents  
 
