@@ -5,10 +5,10 @@ import io.cucumber.java.Before;
 
 // Before and After each scenario
 // This one executes first
-public abstract class TestHooks {
+public class BaseTests {
 
 
-	@Before(order=0)
+	@Before
 	public void setUp() {
 		DriverFactory.initDriver();
 	}
