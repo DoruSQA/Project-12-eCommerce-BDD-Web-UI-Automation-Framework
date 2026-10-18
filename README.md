@@ -8,6 +8,8 @@
 ![Maven](https://img.shields.io/badge/Maven-Build-blue?logo=apachemaven)
 ![BDD](https://img.shields.io/badge/Testing-BDD-purple)
 ![CI](https://github.com/DoruSQA/Project-12-eCommerce-BDD-Web-UI-Automation-Framework.git/actions/workflows/manual-module-testing.yml/badge.svg)
+[![CI](https://github.com/DoruSQA/Project-12-eCommerce-BDD-Web-UI-Automation-Framework/actions/workflows/manual-module-testing.yml/badge.svg)](https://github.com/DoruSQA/Project-12-eCommerce-BDD-Web-UI-Automation-Framework/actions/workflows/manual-module-testing.yml)
+
 
 > **Note 1:** This project is part of my personal QA Automation portfolio.
 
