@@ -26,8 +26,7 @@
 
 ## 📖 Overview 
 
-This project is a **BDD-based Web UI Test Automation Framework** developed using Java, Selenium WebDriver, Cucumber, JUnit 5, and Maven.
-The framework automates the following **modules:**
+This project is a **BDD-based Web UI Test Automation Framework** developed using Java, Selenium WebDriver, Cucumber, JUnit 5, and Maven. <br>The framework automates the following **modules:**
 - Authentication
 - Product Catalog
 - Shopping Cart
