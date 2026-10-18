@@ -85,7 +85,6 @@ maintainability, reusability, and separation of concerns.
 | Features | Defines application behavior and test scenarios using Gherkin syntax |
 | Expected | Centralizes expected values used during test validation |
 | Utils | Provides reusable utilities, including custom element waits |
-| TestHooks | Manages browser initialization and cleanup during the scenario lifecycle |
 
 ---
 
